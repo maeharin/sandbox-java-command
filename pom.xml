@@ -15,4 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <configuration>
+          <mainClass>com.maeharin.App</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
